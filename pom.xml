@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ifisolution</groupId>
 	<artifactId>ci_cd_demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>ci_cd_demo</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -35,6 +35,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>cd_ci_demo</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
