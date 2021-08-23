@@ -15,7 +15,8 @@ public class CiCdDemoApplication {
 
 	@GetMapping("/")
 	public String hello() {
-		return "<h1>Hello from devops lab<h1>";
+		return "<h1>Hello from devops lab<h1> " +
+				"<h2>Hello from devops engineer<h2>";
 	}
 
 }
