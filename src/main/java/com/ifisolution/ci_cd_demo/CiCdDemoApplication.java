@@ -17,7 +17,7 @@ public class CiCdDemoApplication {
 	public String hello() {
 		return "<h1>Hello from devops lab<h1> " +
 				"<h2>Hello from devops engineer<h2>" +
-				"<h3>pushing from intellj";
+				"<h3>pushing from intellj trigger some build";
 	}
 
 }
